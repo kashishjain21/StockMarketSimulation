@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gameplay_bg"
+    tools:context="a.a.stockmarketsimulation2.Start_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="30dp"
+            android:text="Time"
+            android:textColor="@color/white"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+
+        <io.ghyeok.stickyswitch.widget.StickySwitch
+            android:id="@+id/sticky_switch_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView6"
+            android:layout_marginTop="20dp"
+            app:iconPadding="4dp"
+            app:iconSize="50dp"
+            app:leftIcon="@drawable/ic_comp2"
+            app:leftText="4"
+            app:rightIcon="@drawable/ic_comp4"
+            app:rightText="8"
+            app:selectedTextSize="30sp"
+            app:sliderBackgroundColor="@color/sticky_switch_background"
+            app:switchColor="@color/sticky_color"
+            app:textColor="@color/white"
+            app:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/modetextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sticky_switch_button"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="30dp"
+            android:text="Mode"
+            android:textColor="@color/white"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+
+        <io.ghyeok.stickyswitch.widget.StickySwitch
+            android:id="@+id/sticky_switch_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/modetextView"
+            android:layout_marginTop="20dp"
+            android:padding="50dp"
+            app:iconPadding="4dp"
+            app:iconSize="50dp"
+            app:leftIcon="@drawable/ic_comp2"
+            app:leftText="Easy"
+            app:rightIcon="@drawable/ic_comp4"
+            app:rightText="Hard"
+            app:selectedTextSize="23sp"
+            app:sliderBackgroundColor="@color/sticky_switch_background"
+            app:switchColor="@color/sticky_color"
+            app:textColor="@color/white"
+            app:textSize="20sp" />
+
+        <Button
+            android:id="@+id/start_proceed"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="23dp"
+            android:background="@drawable/rounded_button"
+            android:text="Proceed"
+            android:textColor="@color/white"
+            android:textSize="21dp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo3" />
+
+</android.support.constraint.ConstraintLayout>
+

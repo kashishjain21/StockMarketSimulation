@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "745759179724",
+    "firebase_url": "https://stocksim-992d1.firebaseio.com",
+    "project_id": "stocksim-992d1",
+    "storage_bucket": "stocksim-992d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745759179724:android:a985df4bb87f4058",
+        "android_client_info": {
+          "package_name": "a.a.stockmarketsimulation2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745759179724-if5a9hjfi9alkqrhfbmt2tdfpddaasi1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "a.a.stockmarketsimulation2",
+            "certificate_hash": "e77a1bda778a061a691b4dae28de9a105f6b2736"
+          }
+        },
+        {
+          "client_id": "745759179724-0o9jkso1g621daeoftvujn8pbbof9loe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1ShcwYqQmSQslxHQ5W4OumtEfWWVHw08"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745759179724-0o9jkso1g621daeoftvujn8pbbof9loe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
